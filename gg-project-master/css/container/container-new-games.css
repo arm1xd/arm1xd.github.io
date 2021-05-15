@@ -12,6 +12,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: nowrap;
   }
   .ng-block-desc {
     width: 270px;

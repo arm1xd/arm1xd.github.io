@@ -19,10 +19,13 @@
     justify-content: space-around;
     align-items: center;
   }
+  .event-1,.event-2,.event-3{
+  width: 400px;
+  height: 250px;
+}
   .event-1 {
     transition: cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
-    width: 400px;
-    height: 250px;
+
     background-image: url("https://s0.rbk.ru/v6_top_pics/media/img/6/03/756148808557036.jpg");
     background-size: 100%;
     opacity: 0.1;
@@ -31,8 +34,7 @@
   .event-2 {
     transition: cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
   
-    width: 400px;
-    height: 250px;
+   
     background-image: url("https://s0.rbk.ru/v6_top_pics/media/img/6/03/756148808557036.jpg");
     background-size: 100%;
     opacity: 0.1;
@@ -41,8 +43,6 @@
   .event-3 {
     transition: cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
   
-    width: 400px;
-    height: 250px;
     background-image: url("https://s0.rbk.ru/v6_top_pics/media/img/6/03/756148808557036.jpg");
     background-size: 100%;
     opacity: 0.1;
@@ -100,6 +100,7 @@
     color: rgb(73, 0, 141);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
   }
-  
-  
-  
+  .wrapper__ct-out-ev{
+    max-width: 1200px;
+    margin:0 3%;
+  }

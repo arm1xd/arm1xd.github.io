@@ -41,10 +41,12 @@ window.addEventListener("scroll", (Event) => {
 
 
 // поп товары 
-blockNg2 = document.querySelectorAll('.ng__block-slot2')
-blockNg1 = document.querySelectorAll('.ng__block-slot1');
-buttonRight = document.querySelector('.but__right');
-buttonLeft = document.querySelector('.but__left');
+let blockNg2 = document.querySelectorAll('.ng__block-slot2')
+let blockNg1 = document.querySelectorAll('.ng__block-slot1');
+let buttonRight = document.querySelector('.but__right');
+let buttonLeft = document.querySelector('.but__left');
+let jojo = document.querySelectorAll('.ng__block-slot1')
+
 buttonLeft.addEventListener('click',function (){
   
   for (let index = 0; index < blockNg1.length; index++) {
@@ -66,4 +68,22 @@ buttonRight.addEventListener('click',function (){
     
   }
 
+})
+window.addEventListener('resize',function(){
+
+
+  if(window.innerWidth < 1200){
+    for (let index = 0; index < jojo.length; index++) {
+      jojo[index].style.display = 'block';
+      if(index >= 3){
+        jojo[index].style.display = 'none';
+      }
+    }
+  }else if(window.innerWidth > 1200){
+    for (let index = 0; index < jojo.length; index++) {
+      jojo[index].style.display = 'block';
+      if(index >= 4){
+        jojo[index].style.display = 'none';
+      
+  }}}
 })

@@ -18,8 +18,8 @@
     font-size: 70px;
   }
   .our-targets__middle {
-    width: 80%;
-    height: 1000px;
+    width: 100%;
+    background-color: blue;
   }
   
   .target-1-block {
@@ -43,6 +43,8 @@
     height: 500px;
   }
   .targets__row-1 {
+    width:100%;
+    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -179,8 +181,10 @@
     color: white;
   }
   
-  object {
-    margin-left: 400px;
-    /* margin-left: 290px; */
+  .wrapper-ct__our-tar{
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  
+  object{
+    margin-left: 15%;
+  }

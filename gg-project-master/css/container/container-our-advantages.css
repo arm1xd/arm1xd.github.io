@@ -70,3 +70,8 @@
   .block__line-our-advantage:nth-child(3){
     flex-direction: row-reverse;
   }
+  .wrapper__ct-out-ad{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }

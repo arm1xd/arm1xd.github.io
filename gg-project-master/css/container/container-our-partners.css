@@ -73,3 +73,7 @@
     width: 170px;
     height: 120px;
   } */
+  .wrapper__ct-out-par{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
