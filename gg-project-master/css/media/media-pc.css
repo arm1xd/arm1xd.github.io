@@ -1,0 +1,22 @@
+@media screen and (max-width: 1000px) {
+    
+    .navigation-logo{
+        display: none;
+    } 
+    .navigation-links{
+        /* position: absolute;
+        top: 70px;
+        left: -100%; */
+        display: none;
+    }
+    .btn-registry,.btn-login{
+        display: none;
+    }
+    .event-1, .event-2, .event-3{
+        width: 200px;
+        height: 200px;
+    }
+    .event__desc{
+        display: none;
+    }
+}
