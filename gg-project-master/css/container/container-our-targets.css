@@ -1,5 +1,5 @@
 
-.container-info__our-targets {
+.container__targets {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
     width: 100%;
   }
   
-  .our-targets__title {
+  .targets-title {
     padding: 100px;
     display: flex;
     justify-content: center;
@@ -17,12 +17,11 @@
     font-weight: bolder;
     font-size: 70px;
   }
-  .our-targets__middle {
+  .targets-mid {
     width: 100%;
-    background-color: blue;
   }
   
-  .target-1-block {
+  .target-block {
     background-color: rgb(255, 0, 157);
     border: white 2px solid;
   
@@ -33,7 +32,7 @@
     width: 500px;
     height: 500px;
   }
-  .target-1-desc {
+  .target-desc {
     color: rgb(228, 228, 228);
     display: flex;
     align-items: center;
@@ -42,149 +41,39 @@
     width: 500px;
     height: 500px;
   }
-  .targets__row-1 {
+  .targets-row {
     width:100%;
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  .target-1-block__title {
+  .target-cap {
     color: white;
   
     font-size: 80px;
   }
-  .target-1-block__subtitle {
+  .target-subtitle {
     color: white;
     font-size: 30px;
     text-align: center;
   }
-  .target-2-block:hover,
-  .target-4-block:hover {
+
+  
+
+  .target-block:hover{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.7);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.7);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s all;
   }
-  
-  .target-1-block:hover,
-  .target-3-block:hover {
-    -webkit-box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s all;
-  }
-  .target-2-block {
-    background-color: rgb(255, 0, 157);
-    border: white 2px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-  }
-  .target-2-desc {
-    color: rgb(228, 228, 228);
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    font-weight: bold;
-    width: 500px;
-    height: 500px;
-  }
-  .targets__row-2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-  }
-  .target-2-block__title {
-    color: white;
-  
-    font-size: 80px;
-  }
-  .target-2-block__subtitle {
-    color: white;
-  
-    font-size: 30px;
-    text-align: center;
-  }
-  .target-3-block {
-    background-color: rgb(255, 0, 157);
-    display: flex;
-    border: white 2px solid;
-  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-  }
-  .target-3-desc {
-    color: rgb(228, 228, 228);
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    font-weight: bold;
-    width: 500px;
-    height: 500px;
-  }
-  .targets__row-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .target-3-block__title {
-    color: white;
-  
-    font-size: 80px;
-  }
-  .target-3-block__subtitle {
-    color: white;
-  
-    font-size: 30px;
-    text-align: center;
-  }
-  .target-4-block {
-    background-color: rgb(255, 0, 157);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: white 2px solid;
-  
-    width: 500px;
-    height: 500px;
-  }
-  .target-4-desc {
-    color: rgb(228, 228, 228);
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    font-weight: bold;
-    width: 500px;
-    height: 500px;
-  }
-  .targets__row-4 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-  }
-  .target-4-block__title {
-    color: white;
-  
-    font-size: 80px;
-  }
-  .target-4-block__subtitle {
-    font-size: 30px;
-    text-align: center;
-    color: white;
-  }
-  
-  .wrapper-ct__our-tar{
+ 
+  .targets-wrapper{
     max-width: 1200px;
     margin: 0 auto;
   }
   object{
-    margin-left: 15%;
+    margin-left: 20%;
+  }
+  .reverse{
+flex-direction: row-reverse;
   }

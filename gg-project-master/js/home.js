@@ -9,7 +9,7 @@ function nextSlide() {
 }
 
 //animation bg nav scroll\\
-let nav = document.querySelector(".navigation");
+let nav = document.querySelector(".nav");
 
 window.addEventListener("scroll", (Event) => {
   if (window.pageYOffset > 300) {
@@ -41,11 +41,10 @@ window.addEventListener("scroll", (Event) => {
 
 
 // поп товары 
-let blockNg2 = document.querySelectorAll('.ng__block-slot2')
-let blockNg1 = document.querySelectorAll('.ng__block-slot1');
-let buttonRight = document.querySelector('.but__right');
-let buttonLeft = document.querySelector('.but__left');
-let jojo = document.querySelectorAll('.ng__block-slot1')
+let blockNg2 = document.querySelectorAll('.games-bot')
+let blockNg1 = document.querySelectorAll('.games-top');
+let buttonRight = document.querySelector('.but-right');
+let buttonLeft = document.querySelector('.but-left');
 
 buttonLeft.addEventListener('click',function (){
   
@@ -69,21 +68,16 @@ buttonRight.addEventListener('click',function (){
   }
 
 })
-window.addEventListener('resize',function(){
 
 
-  if(window.innerWidth < 1200){
-    for (let index = 0; index < jojo.length; index++) {
-      jojo[index].style.display = 'block';
-      if(index >= 3){
-        jojo[index].style.display = 'none';
-      }
-    }
-  }else if(window.innerWidth > 1200){
-    for (let index = 0; index < jojo.length; index++) {
-      jojo[index].style.display = 'block';
-      if(index >= 4){
-        jojo[index].style.display = 'none';
-      
-  }}}
-})
+
+
+
+
+
+
+
+
+
+
+

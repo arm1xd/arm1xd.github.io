@@ -1,28 +1,27 @@
 
-
-.container-info__our-advantages {
+.container__advantage {
     /* top:1000px; */
     width: 100%;
     background-image: url(https://wallpaperaccess.com/full/4605319.jpg);
     background-size:cover;
   }
-  .our-advantages__title {
+  .advantage-title {
     padding-top: 100px;
     display: flex;
     justify-content: center;
     font-size: 75px;
     color: rgb(255, 0, 157);
   }
-  .our-advantage__ul {
+  .advantage-list {
     font-size: 30px;
     list-style: none;
   }
-  .our-advantage__ul-li {
+  .advantage-element {
     padding-top: 70px;
     color: #a11adf;
     font-weight: bold;
   }
-  .our-advantage__ul-li:before {
+  .advantage-element:before {
     margin-top: 15px;
     position: absolute;
     width: 9px;
@@ -33,7 +32,7 @@
     left: 0;
     transition: 0.3s ease-in-out;
   }
-  .our-advantage__ul-li:after {
+  .advantage-element:after {
     position: absolute;
     border-left: 1px dotted #4f5151;
     width: 1px;
@@ -41,36 +40,35 @@
     content: "";
     left: 3px;
   }
-  .our-advantage__ul-li:hover:before {
+  .advantage-element:hover:before {
     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
   }
-  .our-advantage__ul-li:last-child:after {
+  .advantage-element:last-child:after {
     content: none;
   }
-  .our-advantage__div-img{
+  .advantage-image-bl{
     min-width: 320px;
     width: 50%;
     height: 100%;
     display: flex;
     
   }
-  .our-advantage__img {
-
+  .advantage-image {
     display: flex;
     width: 100%;
     height: 100%; 
 
   }
-  .block__line-our-advantage {
+  .advantage-row {
     display: flex;
     flex-direction: row;
     padding: 24px 0;
   }
 
-  .block__line-our-advantage:nth-child(3){
+  .advantage-row:nth-child(3){
     flex-direction: row-reverse;
   }
-  .wrapper__ct-out-ad{
+  .advantage-wrapper{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 12px;
