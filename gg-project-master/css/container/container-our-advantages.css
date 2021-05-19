@@ -1,6 +1,5 @@
 
 .container__advantage {
-    /* top:1000px; */
     width: 100%;
     background-image: url(https://wallpaperaccess.com/full/4605319.jpg);
     background-size:cover;
@@ -73,3 +72,4 @@
     margin: 0 auto;
     padding: 0 12px;
   }
+  

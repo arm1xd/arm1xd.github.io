@@ -1,16 +1,30 @@
-1 Евент коментарии наоборот
-event adaptade
-форма для регистрации
-burger menu
-Animation
-text bonus 
-but bonus
-targets hover desc 
-title для каждого адаптация
-адаптация таргетс и адвентес в столб
-height new game
-footer adaptade
-scale 150 67
+-------------------------------------------pozhe
+
+форма для регистрации 4 л
+burger menu 4 л 
+Animation 5 л
+content 6 л
+nav burger menu padding лп
+footer adaptade dropmenu лп
+
+
+--------------------------------------------выполнено
+адаптация таргетс и адвентес в столб $
+
+
+--------------------------------------------sam
+our partners adaptade л
+title для каждого адаптация 2 4 л
+scale 150 67   3 4  с
+--------------------------------------------help
+Евент коментарии наоборот 3 п
+text bonus 3 4 п 
+event adaptade 4 п
+height new game 3 4 п
+but bonus 3 4 п
+
+event adaptade 4 п
+--------------------------------------------
 
 
 
@@ -34,4 +48,6 @@ https://www.cssmatic.com/box-shadow
 
 https://start.parimatch.com/match/f36/2500/?btag=a_33245b_1001c_&siteid=33245&utm_source=sport.ua&utm_medium=but&utm_campaign=pdm_33245#
 https://ratingbet.com/bonus/11-bonus-dlya-novykh-igrokov-1xbet.html
+http://seo-design.net/wp-content/uploads/2017/03/2-1-footer-of-eshop-incase.com_-768x569.jpg footer
+http://seo-design.net/wp-content/uploads/2017/03/1-footer-of-eshop-miniplusme.com_-768x374.jpg
 https://www.google.com/search?q=simple+cybersport+png&tbm=isch&ved=2ahUKEwiVqtneoMTwAhWHtioKHX3fD6UQ2-cCegQIABAA&oq=simple+cybersport+png&gs_lcp=CgNpbWcQAzoECAAQEzoGCAAQBxAeUKoaWJExYN8xaABwAHgAgAFniAHGBpIBAzkuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=_tibYJWzMoftqgH9vr-oCg&bih=981&biw=1846&hl=uk#imgrc=zbQTSR9ItbZ1AM

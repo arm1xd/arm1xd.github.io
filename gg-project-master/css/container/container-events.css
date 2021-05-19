@@ -20,10 +20,7 @@
     align-items: center;
 
   }
-  /* /////////////////////////////////////////////////// */
-  .event{
-    margin-left: 0px;
-  }
+
   .event-hov {
     transition: cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
     width: 400px;
@@ -74,7 +71,7 @@
   }
   .events-wrapper{
     max-width: 1400px;
-align-items: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

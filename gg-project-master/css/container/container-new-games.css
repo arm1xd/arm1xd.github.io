@@ -1,7 +1,6 @@
 
 
 .container__games {
-    top: 400px;
     max-width: 100%;
     background-color: #2c2c2c;
   }
@@ -31,7 +30,7 @@
   .game-cap {
     font-size: 25px;
   }
-  .ng-desc-subtitle {
+  .game-subtitle{
     margin-left: 90px;
     font-size: 26px;
     width: 160px;
