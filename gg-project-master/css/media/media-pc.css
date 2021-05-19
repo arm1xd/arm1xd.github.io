@@ -7,9 +7,24 @@
   
 }
  @media screen and (max-width: 1230px){
+   
+    .bonus-mid {
+       flex-direction: column;
+   }
+   .bonus-left{
+  
+       width:100%;
+   }
+   .bonus-right{
+  background-image: url(https://images.wallpapersden.com/image/download/rgb-rain_bGtqbWyUmZqaraWkpJRobWllrWdma2U.jpg);
 
-    .container__events{
+    width:100%;
+}
+    /* .container__events{
         display: none;
+    } */
+     .events-mid{
+        flex-wrap:wrap;
     }
  
 } 
@@ -18,16 +33,16 @@
         flex-direction: column;
         text-align: center;
     }
-    .bonus-but::after{
-        display: none;
-    }
-    
+
     object{
        display: none;
    }
+  
 }
 @media screen and (max-width: 900px){
-    
+    .advantage-title{
+        font-size: 55px;
+    }
     .slider-title{
         font-size: 55px;
     }
@@ -40,11 +55,11 @@
     .partners{
          font-size: 40px;
     }
-    .glow-button{
-        display: flex;
-         }
-
-    
+    .bonus-logo{
+        font-size:80px;
+    }
+   
+       
 }
 @media screen and (max-width: 720px){
      .advantage-row{
@@ -59,7 +74,6 @@
      }
  
     
-
      /* title td */
      .slider-title{
         font-size: 35px;
@@ -75,8 +89,74 @@
         width: 100%;
     }
 }
+@media screen and (max-width:560px){
+    .bonus-logo{
+        font-size:70px;
+    }
+    .glow-button{
+        display: flex;
+         }
+         .bonus-but::after{
+            display: none;
+        } 
+        .bonus-text{
+            font-size: 30px;
+            line-height: 80px;
+        }
+        .advantage-list{
+            font-size:20px ;
+        }
+        .advantage-element{
+            padding: 20px;
+        }
+        .target-block{
+            width: 400px;
+          height: 400px;
+        }
+        .target-desc{
+            width: 400px;
+            height: 400px;
+        }
+}
 @media screen and (max-width:480px){
     .slider-title{
-        font-size: 26px;
+        font-size: 24px;
+    }
+    .bonus-logo{
+        font-size:60px;
+    }
+    .bonus-text{
+        font-size: 20px;
+        line-height: 80px;
+    }
+    .advantage-title{
+        font-size: 37px;
+    }
+}
+@media screen and (max-width:435px){
+    .target-cap{
+        font-size: 50px;
+    }
+    .target-subtitle{
+        font-size: 25px;
+    }
+    .target-block{
+
+        width: 300px;
+      height: 300px;
+    }
+    .target-desc{
+        font-size: 20px;
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:420px){
+    .bonus-logo{
+        font-size:40px;
+    }
+    .bonus-text{
+        font-size: 20px;
+        line-height: 50px;
     }
 }

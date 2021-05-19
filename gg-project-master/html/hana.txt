@@ -2,28 +2,22 @@
 
 форма для регистрации 4 л
 burger menu 4 л 
-Animation 5 л
-content 6 л
-nav burger menu padding лп
-footer adaptade dropmenu лп
-
+Animation 5 л aos
+footer adaptade dropmenu лп acardion menu
+hover vypad target desc
+forma regis
 
 --------------------------------------------выполнено
 адаптация таргетс и адвентес в столб $
 
 
 --------------------------------------------sam
-our partners adaptade л
 title для каждого адаптация 2 4 л
-scale 150 67   3 4  с
 --------------------------------------------help
 Евент коментарии наоборот 3 п
-text bonus 3 4 п 
-event adaptade 4 п
-height new game 3 4 п
-but bonus 3 4 п
 
-event adaptade 4 п
+
+
 --------------------------------------------
 
 
@@ -33,6 +27,20 @@ event adaptade 4 п
 
 https://tobiz.net/templates/dizajnerskij-shablon-sajta-avtotyuninga/
 https://www.w3schools.com/graphics/tryit.asp?filename=trysvg_line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
