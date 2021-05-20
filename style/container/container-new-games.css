@@ -67,7 +67,6 @@
 .games-bot {
   display: none;
   border-right: 0.7px solid rgba(140, 140, 140, 0.2);
-  transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s all;
 }
 .games-bot:hover {
   background-color: #3b3b3b;
