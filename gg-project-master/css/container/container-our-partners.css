@@ -3,11 +3,10 @@
     width: 100%;
   }
   .partners-title {
-    padding-top: 100px;
     display: flex;
     justify-content: center;
     font-family: Courier, monospace;
-    font-size: 52px;
+    font-size: 62px;
     font-weight: bolder;
   }
   .partners-top{

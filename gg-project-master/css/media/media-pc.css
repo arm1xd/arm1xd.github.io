@@ -1,162 +1,217 @@
-
 /* title our-targ */
-@media screen and (max-width: 1400px){
-    /* .{
+@media screen and (max-width: 1400px) {
+  .games-title{
+    font-size: 70px;
+  }
+  /* .{
         font-size: 40px;
     } */
-  
 }
- @media screen and (max-width: 1230px){
-   
-    .bonus-mid {
-       flex-direction: column;
-   }
-   .bonus-left{
-  
-       width:100%;
-   }
-   .bonus-right{
-  background-image: url(https://images.wallpapersden.com/image/download/rgb-rain_bGtqbWyUmZqaraWkpJRobWllrWdma2U.jpg);
+@media screen and (max-width: 1230px) {
 
-    width:100%;
-}
-    /* .container__events{
+  .bonus-mid {
+    flex-direction: column;
+  }
+  .bonus-left {
+    width: 100%;
+  }
+  .bonus-right {
+    background-image: url(https://images.wallpapersden.com/image/download/rgb-rain_bGtqbWyUmZqaraWkpJRobWllrWdma2U.jpg);
+
+    width: 100%;
+  }
+  /* .container__events{
         display: none;
     } */
-     .events-mid{
-        flex-wrap:wrap;
-    }
- 
-} 
-@media screen and (max-width: 1020px){
-    .targets-row{
-        flex-direction: column;
-        text-align: center;
-    }
+  .events-mid {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .targets-row {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    object{
-       display: none;
-   }
+  object {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .advantage-title {
+    font-size: 55px;
+  }
+  .slider-title {
+    font-size: 55px;
+  }
+  body {
+    background-image: url(https://images.wallpapersden.com/image/download/cool-pattern-neon-art-2021_bGxobWmUmZqaraWkpJRoZWxorWZpZ2U.jpg);
+  }
+  #slides {
+    display: none;
+  }
+  .partners {
+    font-size: 40px;
+  }
+  .bonus-logo {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .footer-desc{
+    flex-direction: column;
+  }
+  .footer-block{
+    display:  none;
+  }
+  .accordion{
+    display: block;
+  }
+  .footer-links{
+    width: 50%;
+
+  }
+  .advantage-row {
+    flex-direction: column;
+  }
+  .advantage-row:nth-child(3) {
+    flex-direction: column;
+  }
+  .advantage-image-bl {
+    display: none;
+  }
+
+  /* title td */
+  .slider-title {
+    font-size: 35px;
+  }
+  .partners-bot {
+    flex-wrap: wrap;
+  }
+  .partners-top {
+    flex-wrap: wrap;
+  }
+  .partners {
+    font-size: 30px;
+    width: 100%;
+  }
+  .games-title{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 685px){
+  .bonus-logo a{
+    font-size: 65px;
+  }
+  .bonus-logo a:hover{
+    font-size: 75px;
+
+  }
+}
+@media screen and (max-width: 600px) {
+  .events-title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .bonus-logo {
+    font-size: 70px;
+  }
+  .glow-button {
+    display: flex;
+  }
+  .bonus-but::after {
+    display: none;
+  }
+  .bonus-text {
+    font-size: 30px;
+    line-height: 80px;
+  }
+  .advantage-list {
+    font-size: 20px;
+  }
+  .advantage-element {
+    padding: 20px;
+  }
+  .target-block {
+    width: 400px;
+    height: 400px;
+  }
+  .target-desc {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 500px){
+  .bonus-logo{
+    padding-top: 40px;
+  }
+  .bonus-logo a{
+    font-size: 37px;
+  }
+  .bonus-logo a:hover{
+    font-size: 47px;
+
+  }
+  .footer-links{
+    width: 70%;
+
+  }
+}
+@media screen and (max-width: 480px) { 
+  .targets-title{
+    font-size: 50px;
+  }
+  .events-title {
+    font-size: 50px;
+  }
+  .partners-title {
+    font-size: 40px;
+  }
+  .slider-title {
+    font-size: 24px;
+  }
+  .bonus-logo {
+    font-size: 60px;
+  }
+  .bonus-text {
+    font-size: 20px;
+    line-height: 80px;
+  }
+  .advantage-title {
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .events-title {
+    font-size: 38px;
+  }
+  .target-cap {
+    font-size: 50px;
+  }
+  .target-subtitle {
+    font-size: 25px;
+  }
+  .target-block {
+    width: 300px;
+    height: 300px;
+  }
+  .target-desc {
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .bonus-logo {
+    font-size: 40px;
+  }
+  .bonus-text {
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .games-title{
+    font-size: 30px;
+  }
   
-}
-@media screen and (max-width: 900px){
-    .advantage-title{
-        font-size: 55px;
-    }
-    .slider-title{
-        font-size: 55px;
-    }
-    body{
-        background-image: url(https://images.wallpapersden.com/image/download/cool-pattern-neon-art-2021_bGxobWmUmZqaraWkpJRoZWxorWZpZ2U.jpg);
-    }
-    #slides{
-        display: none;
-    }
-    .partners{
-         font-size: 40px;
-    }
-    .bonus-logo{
-        font-size:80px;
-    }
-   
-       
-}
-@media screen and (max-width: 720px){
-     .advantage-row{
-         flex-direction: column;
-     }
-     .advantage-row:nth-child(3){
-        flex-direction: column;
-    }
-     .advantage-image-bl{
-         display: none;
-         
-     }
- 
-    
-     /* title td */
-     .slider-title{
-        font-size: 35px;
-    }
-    .partners-bot{
-        flex-wrap: wrap;
-    }
-    .partners-top{
-        flex-wrap: wrap;
-    }
-    .partners{
-        font-size: 30px;
-        width: 100%;
-    }
-}
-@media screen and (max-width:560px){
-    .bonus-logo{
-        font-size:70px;
-    }
-    .glow-button{
-        display: flex;
-         }
-         .bonus-but::after{
-            display: none;
-        } 
-        .bonus-text{
-            font-size: 30px;
-            line-height: 80px;
-        }
-        .advantage-list{
-            font-size:20px ;
-        }
-        .advantage-element{
-            padding: 20px;
-        }
-        .target-block{
-            width: 400px;
-          height: 400px;
-        }
-        .target-desc{
-            width: 400px;
-            height: 400px;
-        }
-}
-@media screen and (max-width:480px){
-    .slider-title{
-        font-size: 24px;
-    }
-    .bonus-logo{
-        font-size:60px;
-    }
-    .bonus-text{
-        font-size: 20px;
-        line-height: 80px;
-    }
-    .advantage-title{
-        font-size: 37px;
-    }
-}
-@media screen and (max-width:435px){
-    .target-cap{
-        font-size: 50px;
-    }
-    .target-subtitle{
-        font-size: 25px;
-    }
-    .target-block{
-
-        width: 300px;
-      height: 300px;
-    }
-    .target-desc{
-        font-size: 20px;
-        width: 300px;
-        height: 300px;
-    }
-}
-@media screen and (max-width:420px){
-    .bonus-logo{
-        font-size:40px;
-    }
-    .bonus-text{
-        font-size: 20px;
-        line-height: 50px;
-    }
 }

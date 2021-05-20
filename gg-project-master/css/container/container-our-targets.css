@@ -7,13 +7,13 @@
   }
   
   .targets-title {
-    padding: 100px;
+   padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(255, 62, 191);
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 75px;
   }
   .targets-mid {
     width: 100%;
