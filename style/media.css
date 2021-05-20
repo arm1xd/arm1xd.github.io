@@ -87,13 +87,13 @@
   }
   .partners-bot {
     flex-wrap: wrap;
+    padding-bottom: 30px;
   }
   .partners-top {
     flex-wrap: wrap;
   }
   .partners {
     font-size: 30px;
-    width: 100%;
   }
   .games-title{
     font-size: 40px;
@@ -107,6 +107,9 @@
     font-size: 75px;
 
   }
+}
+@media screen and (max-width: 620px){
+  
 }
 @media screen and (max-width: 600px) {
   .events-title {

@@ -20,19 +20,25 @@
   .partners {
     font-size: 60px;
     text-align: center;
-    width: 250px;
-    height: 70px;
+    width: 50%;
   }
-  .partner-razer{
+  .partner-razer a{
+    text-decoration: none;
     color:rgb(69, 228, 69);
   }
-  .partner-a4tech{
+  .partner-a4tech a{
+    text-decoration: none;
+
     color:rgb(72, 55, 224);
   }
-  .partner-hyperx{
+  .partner-hyperx a{
+    text-decoration: none;
+
     color:rgb(255, 0, 0);
   }
-  .partner-lenovo{
+  .partner-lenovo a{
+    text-decoration: none;
+
     color:rgb(255, 255, 255);
   }
   .partners:hover {
