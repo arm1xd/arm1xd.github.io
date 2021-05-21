@@ -70,14 +70,25 @@ buttonRight.addEventListener('click',function (){
   }
 
 })
-
+let side =document.querySelector('.sidespan') 
+let closed =document.querySelector('.closebtn')
 function openNav() {
   document.querySelector("#mySidenav").style.width = "250px";
+  side.style.display ='none' 
+  closed.style.display='block'
 }
 
 function closeNav() {
   document.querySelector("#mySidenav").style.width = "0";
+  side.style.display ='block'
+  closed.style.display='none'
 }
+
+
+
+
+
+
 
 let accordion = document.querySelectorAll(".accordion");
 
@@ -92,8 +103,6 @@ for (i = 0; i < accordion.length; i++) {
     }
   });
 }
-
-
 
 
 

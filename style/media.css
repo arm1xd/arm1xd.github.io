@@ -19,8 +19,12 @@
   .events-mid {
     flex-wrap: wrap;
   }
-}
+}  
+
 @media screen and (max-width: 1020px) {
+  .sidespan{
+    display: block;
+  }
   .targets-row {
     flex-direction: column;
     text-align: center;
