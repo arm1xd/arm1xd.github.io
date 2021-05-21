@@ -115,6 +115,14 @@
   }
 }
 @media screen and (max-width: 560px) {
+  .target-desc{
+    display: none;
+  }
+  .target-block:hover ~ .target-desc{
+    display: flex;
+    transition: 1s;
+
+  }
   .bonus-logo {
     font-size: 70px;
   }
