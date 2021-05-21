@@ -70,20 +70,28 @@ buttonRight.addEventListener('click',function (){
   }
 
 })
-let side =document.querySelector('.sidespan') 
-let closed =document.querySelector('.closebtn')
-function openNav() {
-  document.querySelector("#mySidenav").style.width = "250px";
-  side.style.display ='none' 
-  closed.style.display='block'
-}
+// let side =document.querySelector('.sidespan') 
+// let closed =document.querySelector('.closebtn')
+// function openNav() {
+//   document.querySelector("#mySidenav").style.width = "250px";
+//   side.style.display ='none' 
+//   closed.style.display='block'
+// }
 
-function closeNav() {
-  document.querySelector("#mySidenav").style.width = "0";
-  side.style.display ='block'
-  closed.style.display='none'
-}
+// function closeNav() {
+//   document.querySelector("#mySidenav").style.width = "0";
+//   side.style.display ='block'
+//   closed.style.display='none'
+// }
 
+
+
+let burgerMenu = document.querySelector('.burger-menu')
+let menuList = document.querySelector('.sidenav')
+
+burgerMenu.addEventListener('click', (Event) =>{
+  menuList.classList.toggle('visible-list')
+})
 
 
 
@@ -103,6 +111,17 @@ for (i = 0; i < accordion.length; i++) {
     }
   });
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
