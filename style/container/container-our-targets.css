@@ -22,7 +22,8 @@
   .target-block {
     background-color: rgb(255, 0, 157);
     border: white 2px solid;
-  
+    transition: 1s;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +39,7 @@
     font-weight: bold;
     width: 500px;
     height: 500px;
+    transition: 1s;
   }
   .targets-row {
     width:100%;
