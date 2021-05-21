@@ -90,7 +90,9 @@ buttonDisabled.addEventListener('click', (Event) =>{
 let login =document.querySelector('.btn-login')
 let regis = document.querySelector('.btn-registry ')
 login.addEventListener('click', (Event) =>{
+
 })
 regis.addEventListener('click', (Event) =>{
 
 })
+AOS.init();
