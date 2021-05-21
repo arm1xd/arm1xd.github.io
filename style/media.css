@@ -52,6 +52,12 @@
   }
 }
 @media screen and (max-width: 720px) {
+  .games-top:nth-child(1){
+  display: none;
+  }
+  .games-bot:nth-child(1){
+    display: none;
+    }
   .target-desc{
     display: none;
   }
