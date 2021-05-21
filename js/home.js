@@ -20,7 +20,9 @@ window.addEventListener("scroll", (Event) => {
     nav.style.backgroundColor = "rgba(0,0,0,0)";
   }
 });
-
+function myFunction(x) {
+  x.classList.toggle("change");
+}
 
 
 // // theme
@@ -68,6 +70,15 @@ buttonRight.addEventListener('click',function (){
   }
 
 })
+
+function openNav() {
+  document.querySelector("#mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.querySelector("#mySidenav").style.width = "0";
+}
+
 let accordion = document.querySelectorAll(".accordion");
 
 for (i = 0; i < accordion.length; i++) {
@@ -81,9 +92,6 @@ for (i = 0; i < accordion.length; i++) {
     }
   });
 }
-
-
-
 
 
 

@@ -1,4 +1,4 @@
-@import url('../import/import.css');
+@import url("../import/import.css");
 
 body {
   margin: 0px;
@@ -10,17 +10,18 @@ body {
   width: 100%;
 }
 
-.flex-block{
+.flex-block {
+  min-width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.nav-wrapper{
-  max-width: 100%;
+.nav-wrapper {
+  min-width: 100%;
 }
 
-.fa-bars{
+.fa-bars {
   display: none;
 }
 .nav {
@@ -43,7 +44,6 @@ body {
 .nav-logo {
   font-size: 45px;
   font-weight: bold;
-  margin-right: 10%;
 }
 
 .links a {
@@ -55,7 +55,6 @@ body {
   border-radius: 20%;
   font-weight: bold;
   transition: cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
-
 }
 .links a:hover {
   font-weight: bolder;
@@ -95,11 +94,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 250px;
-  margin-left: 83px;
 }
 .btn-registry {
-  
   text-decoration: none;
   padding: 15px 15px;
   border-radius: 5px;
@@ -123,7 +119,6 @@ body {
   color: rgb(255, 0, 157);
 }
 .btn-login {
-  
   margin-left: 10px;
   font-weight: 700;
   color: rgb(255, 0, 157);
@@ -182,14 +177,14 @@ body {
   cursor: pointer;
   border-radius: 15px;
   box-shadow: 0 -3px rgb(12, 0, 56) inset;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
 }
 
 .slide-but:hover {
   background: none;
   font-size: 30px;
   border: rgb(255, 0, 179) solid 2px;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
   color: rgb(255, 255, 255);
   box-shadow: inset 12px 50px 50px 50px rgba(255, 0, 200, 0.479);
 }
@@ -201,7 +196,7 @@ body {
   color: #fff;
   filter: brightness(80%);
   -webkit-filter: brightness(80%);
-  -moz-filter: brightness(80%) ;
+  -moz-filter: brightness(80%);
 }
 .slide:nth-of-type(1) {
   background-image: url("https://s0.rbk.ru/v6_top_pics/media/img/6/03/756148808557036.jpg");
@@ -239,7 +234,6 @@ body {
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
 }
-
 .slide-title {
   color: white;
 }
@@ -257,27 +251,131 @@ body {
   color: rgb(255, 0, 170);
   z-index: 9999;
 }
-@media screen and (max-width: 1000px) {
-    
-  
+.slider-title {
+  width: 100%;
+  text-align: center;
+}
 
-  .nav-links{
-      
-      display: none;
+.sidenav {
+  display: flex;
+  text-align: center;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  line-height: 70px;
+}
+.sidenav-links{
+  color: rgb(221, 221, 221);
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  transition: 0.5s;
+
+}
+.sidenav-links i:hover{
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  transition: 0.5s;
+}
+.sidenav .sidenav-element {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  display: block;
+  transition: 0.3s;
+  color:rgb(255, 37, 255);
+}
+
+.sidenav .sidenav-element:hover {
+  color: #f1f1f1;
+  border-bottom: rgb(53, 53, 53) 2px solid;
+}
+.fa-ghost{
+  display: none;
+  color: rgb(255, 0, 170);
+ transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s all;
+
+}
+.fa-ghost:hover{
+ color: white;
+ transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s all;
+}
+.sidenav .closebtn {
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  font-size: 36px;
+  margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  transition: 1s;
+
+}
+.sidenav .closebtn:hover{
+  color: rgb(255, 255, 255);
+  transition: 1s;
+}
+.sidespan {
+  display: none;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+.sidespan:hover{
+  color:white;
+  transition: 1s;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-links {
+    display: none;
   }
-  .btn-registry,.btn-login{
-      display: none;
+
+  .btn-registry,
+  .btn-login {
+    display: none;
   }
-  .event-1, .event-2, .event-3{
-      width: 200px;
-      height: 200px;
+  .nav-logo >div{
+    display: none;
   }
-  .event__desc{
-      display: none;
+  .nav-logo {
+    padding-right: 50%;
+    font-size: 45px;
+    font-weight: bold;
   }
-  .fa-bars{
-      display: inline-block;
-      color:beige;
+  
+  .fa-ghost{
+    display: block;
+  }
+  .fa-bars {
+    display: inline-block;
+    color: beige;
+    font-size: 30px;
+  }
+  .sidespan {
+    padding-right: 20px;
+
+    display: block;
   }
 }
 
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

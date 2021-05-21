@@ -1,11 +1,7 @@
-/* title our-targ */
 @media screen and (max-width: 1400px) {
   .games-title{
     font-size: 70px;
   }
-  /* .{
-        font-size: 40px;
-    } */
 }
 @media screen and (max-width: 1230px) {
 
@@ -20,9 +16,6 @@
 
     width: 100%;
   }
-  /* .container__events{
-        display: none;
-    } */
   .events-mid {
     flex-wrap: wrap;
   }
@@ -32,6 +25,7 @@
     flex-direction: column;
     text-align: center;
   }
+ 
 
   object {
     display: none;
@@ -81,7 +75,6 @@
     display: none;
   }
 
-  /* title td */
   .slider-title {
     font-size: 35px;
   }
@@ -116,7 +109,7 @@
 }
 @media screen and (max-width: 600px) {
   .events-title {
-    font-size: 50px;
+    font-size: 30px;
    padding-top: 40px;
    padding-bottom: 30px;
   }
@@ -171,13 +164,13 @@
     font-size: 50px;
   }
   .events-title {
-    font-size: 40px;
+    font-size: 50px;
   }
   .partners-title {
     font-size: 40px;
   }
   .slider-title {
-    font-size: 24px;
+    font-size: 30px;
   }
   .bonus-logo {
     font-size: 60px;
@@ -191,8 +184,12 @@
   }
 }
 @media screen and (max-width: 435px) {
+
+  .fa-ghost{
+    display: block;
+  }
   .events-title {
-    font-size: 30px;
+    font-size: 38px;
   }
   .target-cap {
     font-size: 50px;
@@ -222,4 +219,9 @@
     font-size: 30px;
   }
   
+}
+@media screen and (max-width: 360px){
+  .slider-title {
+    font-size: 25px;
+  }
 }
