@@ -24,7 +24,6 @@ function myFunction(x) {
   x.classList.toggle("change");
 }
 
-
 // // theme
 // let themeBut = document.querySelector(".but_theme");
 // let baseURL =
@@ -40,68 +39,40 @@ function myFunction(x) {
 //   }
 // });
 
+// поп товары
+let blockNg2 = document.querySelectorAll(".games-bot");
+let blockNg1 = document.querySelectorAll(".games-top");
+let buttonRight = document.querySelector(".but-right");
+let buttonLeft = document.querySelector(".but-left");
 
-
-// поп товары 
-let blockNg2 = document.querySelectorAll('.games-bot')
-let blockNg1 = document.querySelectorAll('.games-top');
-let buttonRight = document.querySelector('.but-right');
-let buttonLeft = document.querySelector('.but-left');
-
-buttonLeft.addEventListener('click',function (){
-  
+buttonLeft.addEventListener("click", function () {
   for (let index = 0; index < blockNg1.length; index++) {
-     blockNg1[index].style.display='none';
+    blockNg1[index].style.display = "none";
   }
   for (let index = 0; index < blockNg2.length; index++) {
-    blockNg2[index].style.display="block";
-    
+    blockNg2[index].style.display = "block";
   }
-
-})
-buttonRight.addEventListener('click',function (){
-  
+});
+buttonRight.addEventListener("click", function () {
   for (let index = 0; index < blockNg1.length; index++) {
-     blockNg1[index].style.display='block';
+    blockNg1[index].style.display = "block";
   }
   for (let index = 0; index < blockNg2.length; index++) {
-    blockNg2[index].style.display="none";
-    
+    blockNg2[index].style.display = "none";
   }
+});
 
-})
-// let side =document.querySelector('.sidespan') 
-// let closed =document.querySelector('.closebtn')
-// function openNav() {
-//   document.querySelector("#mySidenav").style.width = "250px";
-//   side.style.display ='none' 
-//   closed.style.display='block'
-// }
+let burgerMenu = document.querySelector(".burger-menu");
+let menuList = document.querySelector(".sidenav");
 
-// function closeNav() {
-//   document.querySelector("#mySidenav").style.width = "0";
-//   side.style.display ='block'
-//   closed.style.display='none'
-// }
-
-
-
-let burgerMenu = document.querySelector('.burger-menu')
-let menuList = document.querySelector('.sidenav')
-
-burgerMenu.addEventListener('click', (Event) =>{
-  menuList.classList.toggle('visible-list')
-})
-
-
-
-
-
+burgerMenu.addEventListener("click", (Event) => {
+  menuList.classList.toggle("visible-list");
+});
 
 let accordion = document.querySelectorAll(".accordion");
 
 for (i = 0; i < accordion.length; i++) {
-  accordion[i].addEventListener("click", function() {
+  accordion[i].addEventListener("click", function () {
     this.classList.toggle("active");
     let panel = this.nextElementSibling;
     if (panel.style.display === "block") {
@@ -111,22 +82,15 @@ for (i = 0; i < accordion.length; i++) {
     }
   });
 }
+let buttonDisabled = document.querySelector('.slide-but')
+buttonDisabled.addEventListener('click', (Event) =>{
+  alert('Ага , щас , я что робот сделать фулл игровой магазин?')
+})
 
+let login =document.querySelector('.btn-login')
+let regis = document.querySelector('.btn-registry ')
+login.addEventListener('click', (Event) =>{
+})
+regis.addEventListener('click', (Event) =>{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+})
